@@ -4,7 +4,7 @@ function on_off(valor) {
     // Define las nuevas variables
     const id = 1;
     const dispositivo = "LED";
-    const URL = `https://git.heroku.com/iot-esp32.git/${id}`;
+    const URL = `https://iot-apii-b9be325b71d5.herokuapp.com/iot/1`;
 
     var request = new XMLHttpRequest;
     request.open('PUT', URL + "/" + valor, true);
