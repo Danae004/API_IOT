@@ -1,6 +1,6 @@
 function get_led() {
     // Define la nueva URL
-    const newURL = "https://git.heroku.com/iot-esp32.git";
+    const newURL = "https://iot-apii-b9be325b71d5.herokuapp.com/iot";
 
     var request = new XMLHttpRequest;
     request.open('GET', newURL);
